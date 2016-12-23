@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="tpgame.securityandcryptography.MainActivity">
+
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Read Contact"
+        android:id="@+id/btnReadContact"
+        android:layout_marginTop="95dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Read SMS"
+        android:id="@+id/btnReadSMS"
+        android:layout_below="@+id/btnReadContact"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Read Call Log"
+        android:id="@+id/btnCallLog"
+        android:layout_marginTop="31dp"
+        android:layout_below="@+id/btnReadSMS"
+        android:layout_alignLeft="@+id/btnReadSMS"
+        android:layout_alignStart="@+id/btnReadSMS" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Send SMS"
+        android:id="@+id/btnSendSMS"
+        android:layout_marginTop="26dp"
+        android:layout_below="@+id/btnCallLog"
+        android:layout_alignLeft="@+id/btnCallLog"
+        android:layout_alignStart="@+id/btnCallLog" />
+</RelativeLayout>

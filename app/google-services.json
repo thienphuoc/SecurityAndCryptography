@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "450629058410",
+    "firebase_url": "https://securityandcryptography.firebaseio.com",
+    "project_id": "securityandcryptography",
+    "storage_bucket": "securityandcryptography.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:450629058410:android:7e977255dcd1010f",
+        "android_client_info": {
+          "package_name": "tpgame.securityandcryptography"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "450629058410-r2nivhrpg3b0u51t9c2shfrmd0jpdvuo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3J8dHAcVHi0ieFuLDcmiXEhYYputoVEw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
